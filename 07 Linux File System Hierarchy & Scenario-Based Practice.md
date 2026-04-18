@@ -1,84 +1,84 @@
-# 📁 Linux File System Hierarchy & Scenario-Based Practice
+## 📁 Linux File System Hierarchy & Scenario-Based Practice
 
-## Core Directories (Must Know)
 
-# Linux File System Hierarchy – 
 
-## Core Directories (Must Know)
+## Linux File System Hierarchy – 
 
-### `/` (root) - The starting point of everything  
+### Core Directories (Must Know)
+
+#### `/` (root) - The starting point of everything  
 **Contains:** It is the top-level directory that contains all subdirectories.  
 **I would use this when:** I want to see what the root directory contains and navigate to core directories.  
 <img width="957" height="705" alt="1" src="https://github.com/user-attachments/assets/869a7d1a-079a-4c2c-9c02-6aec8e308b4f" />
 
 ---
 
-### `/home` - User home directories  
+#### `/home` - User home directories  
 **Contains:** It contains all user home directories.  
 **I would use this when:** I want to check user files, permissions, or group ownership.  
 <img width="806" height="150" alt="2" src="https://github.com/user-attachments/assets/8eddc9e2-9b01-408b-948c-81965c8e5928" />
 
 ---
 
-### `/root` - Root user's home directory  
+#### `/root` - Root user's home directory  
 **Contains:** It contains the home directory of the root user.  
 **I would use this when:** I want to access or manage root user files.  
 
 ---
 
-### `/etc` - Configuration files  
+#### `/etc` - Configuration files  
 **Contains:** It contains configuration files like hostname, systemd, crontab, etc.  
 **I would use this when:** I want to check or modify system configuration files.  
 <img width="1842" height="986" alt="3" src="https://github.com/user-attachments/assets/1987a17b-0931-4ff2-bf53-74405f65efdb" />
 
 ---
 
-### `/var/log` - Log files (very important for DevOps!)  
+#### `/var/log` - Log files (very important for DevOps!)  
 **Contains:** It contains log files created by the system and services.  
 **I would use this when:** I want to check errors or troubleshoot system issues.  
 <img width="1722" height="772" alt="4" src="https://github.com/user-attachments/assets/47b1d6f6-cb3c-4b55-980e-51c0fee1acf6" />
 
 ---
 
-### `/tmp` - Temporary files  
+#### `/tmp` - Temporary files  
 **Contains:** It contains temporary files created by the system and applications.  
 **I would use this when:** I want to check or remove temporary files.  
 <img width="1635" height="288" alt="5" src="https://github.com/user-attachments/assets/2c560662-f17e-4949-b834-700fe226d624" />
 
 ---
 
-## Additional Directories
+### Additional Directories
 
-### `/bin` - Essential command binaries  
+#### `/bin` - Essential command binaries  
 **Contains:** It contains essential binaries like cat, ls, systemctl, etc.  
 **I would use this when:** I want to run basic system commands.  
 <img width="1765" height="982" alt="6" src="https://github.com/user-attachments/assets/c15afdbb-4224-4b42-a3b7-e846c6f97ef7" />
 
 ---
 
-### `/usr/bin` - User command binaries  
+#### `/usr/bin` - User command binaries  
 **Contains:** It contains user-level binaries like awk, chmod, chgrp, etc.  
 **I would use this when:** I want to use commands to manage files or permissions.  
 <img width="1857" height="991" alt="7" src="https://github.com/user-attachments/assets/808db64e-29dc-43bd-8a53-99fcbbdd6b77" />
 
 ---
 
-### `/opt` - Optional/third-party applications  
+#### `/opt` - Optional/third-party applications  
 **Contains:** It contains third-party applications installed by the root user.  
 **I would use this when:** I want to check or manage third-party applications.  
 <img width="1857" height="991" alt="7" src="https://github.com/user-attachments/assets/808db64e-29dc-43bd-8a53-99fcbbdd6b77" />
 
 ---
 
-## 🛠️ Hands-on Tasks 
+### 🛠️ Hands-on Tasks 
 
 <img width="1420" height="733" alt="9" src="https://github.com/user-attachments/assets/7ef455eb-f75f-49ef-be46-b0fff5437fd3" />
 
 ---
 
-## Part 2: Scenario-Based Practice
+### Part 2: Scenario-Based Practice
 
-### Scenario 1: Service Not Starting
+#### Scenario 1: Service Not Starting
 
 <img width="1632" height="976" alt="s1" src="https://github.com/user-attachments/assets/b22d88a4-539a-4298-9452-2626153b94a6" />
 <img width="1873" height="985" alt="s12" src="https://github.com/user-attachments/assets/de85585f-09c2-4d51-a308-1a7742bba958" />
@@ -100,7 +100,7 @@
 
 ---
 
-### Scenario 2: High CPU Usage
+#### Scenario 2: High CPU Usage
 
 top  
 htop  
@@ -112,7 +112,7 @@ ps aux --sort=-%cpu | head -10
 
 ---
 
-### Scenario 3: Finding Service Logs
+#### Scenario 3: Finding Service Logs
 
 journalctl -u docker
 journalctl -u docker | tail -n 10
@@ -123,7 +123,7 @@ journalctl -u docker | tail -f
 
 ---
 
-### Scenario 4: File Permission Issue
+#### Scenario 4: File Permission Issue
 
 ls -l /home/user/backup.sh  
 chmod +x /home/user/backup.sh  
