@@ -23,6 +23,7 @@
 #### `/root` - Root user's home directory  
 **Contains:** It contains the home directory of the root user.  
 **I would use this when:** I want to access or manage root user files.  
+<img width="962" height="315" alt="3 1" src="https://github.com/user-attachments/assets/394ce7fd-57c0-4e07-a2b6-6d33a0d24630" />
 
 ---
 
@@ -66,7 +67,7 @@
 #### `/opt` - Optional/third-party applications  
 **Contains:** It contains third-party applications installed by the root user.  
 **I would use this when:** I want to check or manage third-party applications.  
-<img width="1857" height="991" alt="7" src="https://github.com/user-attachments/assets/808db64e-29dc-43bd-8a53-99fcbbdd6b77" />
+<img width="865" height="193" alt="8" src="https://github.com/user-attachments/assets/fa313023-1bd9-4f44-acca-6a6d57ae6539" />
 
 ---
 
@@ -81,6 +82,7 @@
 #### Scenario 1: Service Not Starting
 
 <img width="1632" height="976" alt="s1" src="https://github.com/user-attachments/assets/b22d88a4-539a-4298-9452-2626153b94a6" />
+
 <img width="1873" height="985" alt="s12" src="https://github.com/user-attachments/assets/de85585f-09c2-4d51-a308-1a7742bba958" />
 
 **Step 1:** systemctl status myapp  
@@ -106,9 +108,11 @@ top
 htop  
 ps aux --sort=-%cpu | head -10
 
-<img width="1863" height="980" alt="s21" src="https://github.com/user-attachments/assets/4e2c69e7-bc23-4901-949e-ba3ddc3a6aa8" />
-<img width="1902" height="981" alt="s22" src="https://github.com/user-attachments/assets/be8bfd3c-5a84-418c-993b-ebb4b5ff34a2" />
-<img width="1901" height="317" alt="s23" src="https://github.com/user-attachments/assets/b006e10d-e929-4442-aea4-d0500d12ef34" />
+<img width="1863" height="980" alt="s21" src="https://github.com/user-attachments/assets/f9b1af3c-a258-4c5b-ab89-dfe028be4eb2" />
+
+<img width="1902" height="981" alt="s22" src="https://github.com/user-attachments/assets/405b8811-ad4f-4620-8af6-25733bf70c3c" />
+
+<img width="1901" height="317" alt="s23" src="https://github.com/user-attachments/assets/33aef533-b39b-4558-8bb9-c3f45eeaf1d2" />
 
 ---
 
@@ -119,6 +123,7 @@ journalctl -u docker | tail -n 10
 journalctl -u docker | tail -f
 
 <img width="1896" height="937" alt="s31" src="https://github.com/user-attachments/assets/61122544-fd87-4699-89df-84488351e3ad" />
+
 <img width="1893" height="705" alt="s32" src="https://github.com/user-attachments/assets/5d693422-d5d9-473b-8e8b-f1555423fe2a" />
 
 ---
@@ -128,5 +133,7 @@ journalctl -u docker | tail -f
 ls -l /home/user/backup.sh  
 chmod +x /home/user/backup.sh  
 ./backup.sh  
+
+<img width="1114" height="221" alt="s41" src="https://github.com/user-attachments/assets/86a189a6-5a4f-47df-9e77-0731d11df308" />
 
 <img width="1901" height="317" alt="s23" src="https://github.com/user-attachments/assets/b006e10d-e929-4442-aea4-d0500d12ef34" />
