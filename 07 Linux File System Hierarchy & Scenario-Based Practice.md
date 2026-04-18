@@ -118,8 +118,8 @@ ps aux --sort=-%cpu | head -10
 
 #### Scenario 3: Finding Service Logs
 
-journalctl -u docker
-journalctl -u docker | tail -n 10
+journalctl -u docker<br>
+journalctl -u docker | tail -n 10<br>
 journalctl -u docker | tail -f
 
 <img width="1896" height="937" alt="s31" src="https://github.com/user-attachments/assets/61122544-fd87-4699-89df-84488351e3ad" />
@@ -136,4 +136,5 @@ chmod +x /home/user/backup.sh
 
 <img width="1114" height="221" alt="s41" src="https://github.com/user-attachments/assets/86a189a6-5a4f-47df-9e77-0731d11df308" />
 
-<img width="1901" height="317" alt="s23" src="https://github.com/user-attachments/assets/b006e10d-e929-4442-aea4-d0500d12ef34" />
+<img width="632" height="127" alt="s42" src="https://github.com/user-attachments/assets/2421cdc4-b1f6-4332-9b36-080585f69ff0" />
+
