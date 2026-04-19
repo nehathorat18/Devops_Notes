@@ -17,24 +17,24 @@
 
 ### Commands Used
 
-- sudo useradd -m tokyo;
-- sudo useradd -m berlin;
-- sudo useradd -m professor;
-- cat /etc/passwd;
+- sudo useradd -m tokyo
+- sudo useradd -m berlin
+- sudo useradd -m professor
+- cat /etc/passwd
 
 <img width="1767" height="972" alt="1" src="https://github.com/user-attachments/assets/b075c310-b4d4-4067-90ce-f1c44940dbd3" />
 <img width="687" height="173" alt="2" src="https://github.com/user-attachments/assets/1293ae55-87de-49a6-b1d7-9000c8818c77" />
 
-- sudo groupadd developers;
-- sudo groupadd admins;
-- cat /etc/group;
+- sudo groupadd developers
+- sudo groupadd admins
+- cat /etc/group
 
 <img width="1492" height="417" alt="3" src="https://github.com/user-attachments/assets/7162095e-a691-4892-9625-7ef2568c87b4" />
 <img width="1863" height="1027" alt="4" src="https://github.com/user-attachments/assets/37fe9f68-7ae4-41f0-8392-03aac7750700" />
 
-- sudo usermod -aG developers tokyo;
-- sudo usermod -aG developers,admins berlin;
-- sudo usermod -aG admins professor;
+- sudo usermod -aG developers tokyo
+- sudo usermod -aG developers,admins berlin
+- sudo usermod -aG admins professor
 <img width="1102" height="112" alt="5" src="https://github.com/user-attachments/assets/f2f89435-0ec2-4e46-b0dc-ea7d2409afac" />
 
 - groups tokyo
