@@ -2,7 +2,7 @@
 
 ---
 
-### Part 1: Launch Cloud Instance & SSH Access (15 minutes)
+### Part 1: Launch Cloud Instance & SSH Access 
 
 #### Step 1: Create a Cloud Instance
 <img width="1907" height="853" alt="1" src="https://github.com/user-attachments/assets/26d8424d-26ce-46fa-b68e-3220509ee037" />
@@ -14,7 +14,7 @@
 
 ---
 
-### Part 2: Install Docker & Nginx (20 minutes)
+### Part 2: Install Docker & Nginx 
 
 #### Step 1: Update System
 sudo apt-get update  
@@ -34,7 +34,7 @@ systemctl status docker
 
 ---
 
-### Part 3: Security Group Configuration (10 minutes)
+### Part 3: Security Group Configuration
 
 #### Test Web Access
 Open browser and visit:
@@ -45,7 +45,7 @@ http://100.55.25.34/
 
 ---
 
-### Part 4: Extract Nginx Logs (15 minutes)
+### Part 4: Extract Nginx Logs 
 
 #### Step 1: View Nginx Logs
 sudo cat /var/log/nginx/access.log
