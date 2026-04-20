@@ -73,6 +73,6 @@
 ---
 
 ### What I Learned
-- Created and managed users and groups -
-- Set up directories with proper group access permissions -
-- Collaborated by creating files within shared directories as group members -
+- Created and managed users and groups
+- Set up directories with proper group access permissions
+- Collaborated by creating files within shared directories as group members
