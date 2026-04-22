@@ -1,4 +1,4 @@
-##File Ownership Challenge (chown & chgrp)
+## File Ownership Challenge (chown & chgrp)
 
 ### Task 1: Understanding Ownership
 
