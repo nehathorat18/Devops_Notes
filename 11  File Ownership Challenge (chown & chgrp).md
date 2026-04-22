@@ -208,4 +208,4 @@ history
 - How to change ownership of files and directories  
 - How to change group of files and directories  
 - How to change both owner and group in a single command  
-- How to recursively change ownership for folders and subfolders  <img width="947" height="215" alt="t1" src="https://github.com/user-attachments/assets/9a2961c3-09fa-429b-bc94-04c9a5e9dedb" />
+- How to recursively change ownership for folders and subfolders 
